@@ -1,0 +1,66 @@
+{
+  "-7106688c": {
+    "collection": "partners"
+  },
+  "18ba18df": {
+    "collection": "project",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "type",
+          "operatorName": "eq",
+          "value": "category/quantum.md"
+        }
+      ]
+    }
+  },
+  "-677fc190": {
+    "collection": "project",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "type",
+          "operatorName": "eq",
+          "value": "category/consulting.md"
+        }
+      ]
+    }
+  },
+  "13ee6f0a": {
+    "collection": "project",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "type",
+          "operatorName": "eq",
+          "value": "category/other.md"
+        }
+      ]
+    }
+  },
+  "-201d8711": {
+    "collection": "post",
+    "query": {
+      "offset": 0,
+      "limit": 5,
+      "sort": [
+        "-date"
+      ]
+    }
+  },
+  "551b8e83": {
+    "collection": "post",
+    "query": {}
+  },
+  "1f4a07e9": {
+    "collection": "post"
+  },
+  "71b99e94": {
+    "collection": "newsletter",
+    "query": {
+      "sort": [
+        "-published-date"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "anishah"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  project:
+    type: "page"
+    label: "Projects"
+    urlPath: "/project/{slug}"
+  post:
+    type: "page"
+    label: "Blog Posts"
+    urlPath: "/post/{slug}"
+  category:
+    type: "page"
+    label: "Project Categories"
+    urlPath: "/category/{slug}"
+  partners:
+    type: "page"
+    label: "Partners"
+    urlPath: "/partners/{slug}"
+  newsletter:
+    type: "page"
+    label: "Newsletters"
+    urlPath: "/newsletter/{slug}"
