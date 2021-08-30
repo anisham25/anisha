@@ -37,4 +37,4 @@ The results I received demonstrated that quantum computing did, indeed, occur. I
 
 ### Still Interested?
 
-Read my [article](https://www.anishamusti.com/post/modern-cryptography-is-doomed/) for more information
+Read my [article](https://www.anishamusti.com/post/teleportation-is-real/) for more information
